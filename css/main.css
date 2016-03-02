@@ -96,6 +96,20 @@ h1{
     font-weight: 700;
 }
 
+#about{
+    position: relative;
+    color: white;
+}
+#about .description{
+    font-size: .8em;
+    line-height: 1.75em;
+    width: 900px;
+    margin: 0 auto;
+}
+#about .vig{
+    background-color: rgba(0,0,0,0.3);
+}
+
 #rules{
     color:#0680CD;
     background: white;

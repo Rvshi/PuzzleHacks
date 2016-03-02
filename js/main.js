@@ -1,5 +1,6 @@
 $(function(){
     $('#top').parallax({imageSrc: './img/bg.jpg'});
+    $('#about').parallax({imageSrc: './img/about.jpg'}); 
     $('#prizes').parallax({imageSrc: './img/prizes.jpg'}); 
     
     $('a[href^="#"]').on('click',function (e) {
