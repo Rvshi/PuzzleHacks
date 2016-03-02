@@ -17,7 +17,7 @@ $(function(){
 	});
 	
 	var down = false;   
-	
+	// scroll behavior
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 700 && down == false) {
             down = true;
